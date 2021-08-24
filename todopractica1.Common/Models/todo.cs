@@ -6,6 +6,6 @@ namespace todopractica1.Common.Models
     {
         public DateTime CreatedTime { get; set; }
         public string TaskDescription { get; set; }
-        public bool IsComplete { get; set; }
+        public bool IsCompleted { get; set; }
     }
 }

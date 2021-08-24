@@ -23,7 +23,7 @@ namespace todopractica1.Functions.Functions
 
             foreach (TodoEntity completedTodo in completedTodos)
             {
-                if (completedTodo.IsComplete.Equals(true))
+                if (completedTodo.IsCompleted.Equals(true))
                 {
                     await todoTable.ExecuteAsync(TableOperation.Delete(completedTodo));
                     deleted++;

@@ -43,7 +43,7 @@ namespace todopractica1.Functions.Functions
             {
                 CreatedTime = DateTime.UtcNow,
                 ETag = "*",
-                IsComplete = false,
+                IsCompleted = false,
                 PartitionKey = "TODO",
                 RowKey = Guid.NewGuid().ToString(),
                 TaskDescription = todo.TaskDescription
@@ -91,7 +91,7 @@ namespace todopractica1.Functions.Functions
 
             //Update todo
             TodoEntity todoEntity = (TodoEntity)findResult.Result;
-            todoEntity.IsComplete = todo.IsComplete;
+            todoEntity.IsCompleted = todo.IsCompleted;
             if (!string.IsNullOrEmpty(todo.TaskDescription))
             {
                 todoEntity.TaskDescription = todo.TaskDescription;
