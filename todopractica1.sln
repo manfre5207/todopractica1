@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todopractica1.Common", "todopractica1.Common\todopractica1.Common.csproj", "{04D44824-61C4-4133-ACC4-072D48F790B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todopractica1.Common", "todopractica1.Common\todopractica1.Common.csproj", "{04D44824-61C4-4133-ACC4-072D48F790B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todopractica1.Functions", "todopractica1.Functions\todopractica1.Functions.csproj", "{7B914DF2-DD0C-4879-B0D8-3EDACC38BD9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todopractica1.Functions", "todopractica1.Functions\todopractica1.Functions.csproj", "{7B914DF2-DD0C-4879-B0D8-3EDACC38BD9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todopractica1.Test", "todopractica1.Test\todopractica1.Test.csproj", "{B45200CB-E5C8-451D-A5F3-4315B736CF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todopractica1.Test", "todopractica1.Test\todopractica1.Test.csproj", "{B45200CB-E5C8-451D-A5F3-4315B736CF0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
